@@ -203,4 +203,5 @@ def run_weekly_updates(database="project_database.db"):
         current_date += timedelta(days=1)
 
 # Exécuter les mises à jour hebdomadaires
-run_weekly_updates()
+if __name__ == '__main__':
+    run_weekly_updates()
