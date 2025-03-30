@@ -42,7 +42,7 @@ def low_risk_strategy(returns_data, volatility_target=0.10, volatility_window=30
 
     return decisions
 
-# Stratégie pour les produits à faible rotation
+# Stratégie pour les produits à faible turnover
 def low_turnover_strategy(returns_data, momentum_window=30, max_deals_per_month=2):
     momentum = returns_data.pct_change(periods=momentum_window).iloc[-1]
     decisions = {product: int(momentum[product] * 10)
