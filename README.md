@@ -1,5 +1,7 @@
 # Data-management-project
 
+## Raoul Sinde, Victor Vasseur et Remi Schmitt
+
 Plusieurs fichiers : <br>
 requirements.txt : Indique les dépendances nécessaires au fonctionnement du code ;<br>
 Data management manuel d'utilisation.pdf : Contient l'explication du code et de sa structure ;<br>
