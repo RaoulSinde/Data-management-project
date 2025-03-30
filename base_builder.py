@@ -450,4 +450,5 @@ def main(database=project_database, clients_query=create_clients_query, products
     populate_returns_table(dict_product_id=fetch_product_ids(), dict_product_name=fetch_product_name(), returns_df=returns_data, database=database)
 
 # Exécution de la fonction principale
-main()
+if __name__ == "__main__":
+    main()
