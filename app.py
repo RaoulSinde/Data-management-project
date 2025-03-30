@@ -1,3 +1,10 @@
+import subprocess
+import sys
+
+# Installer les dépendances à partir du fichier requirements.txt
+subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
+
+
 import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
