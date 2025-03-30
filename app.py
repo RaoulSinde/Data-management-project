@@ -10,7 +10,7 @@ import performances
 #- Pour lancer l'app : "streamlit run app.py" dans le terminal (dans le répertoire où se trouve app.py)
 
 
-st.title("Dashboard de performance du fond")
+st.title("Dashboard de performance du fonds")
 st.write("Veuillez sélectionner un portefeuille dans le menu de gauche afin d’afficher les détails de sa performance.")
 
 # Connexion à la base de données via performances.py
