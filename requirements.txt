@@ -1,0 +1,8 @@
+pandas
+numpy
+sqlite3
+json
+matplotlib
+yfinance
+faker
+streamlit
