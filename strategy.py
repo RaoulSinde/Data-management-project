@@ -36,7 +36,7 @@ def low_risk_strategy(returns_data, volatility_target=0.10, volatility_window=30
     for product in returns_data.columns:
         if pd.notna(momentum[product]) and np.isfinite(momentum[product]):
             if latest_volatility[product] <= volatility_target:
-                decisions[product] = int(momentum[product] * 10)  # S'assurer que la quantité est un entier
+                decisions[product] = int(momentum[product] * 10)  
             else:
                 decisions[product] = int(-momentum[product] * 10)
 
